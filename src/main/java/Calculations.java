@@ -12,4 +12,7 @@ public class Calculations {
     public double divide(double a, double b){
         return a/b;
     }
+    public double simpleSquareRoot(double a){
+        return Math.sqrt(a);
+    }
 }
