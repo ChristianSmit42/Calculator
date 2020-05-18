@@ -54,4 +54,15 @@ class CalculationsTest {
         assertEquals(12, result);
     }
 
+    @Test
+    @DisplayName("SquareRoot of 144 should be 12")
+    public void SquareRootOf144is12() {
+        // GIVEN
+        double a = 144;
+        // WHEN
+        double result = calc.simpleSquareRoot(a);
+        //THEN
+        assertEquals(12, result);
+    }
+
 }
